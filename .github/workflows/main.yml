@@ -31,9 +31,9 @@ jobs:
 
       - name: Run PowerShell commands
         run: |
-         powershell.exe -ExecutionPolicy Bypass -Command
+         powershell.exe -ExecutionPolicy Bypass -Command "Write-Host 'Hello from PowerShell!'"
    
-          "Write-Host 'Hello from PowerShell!'"
+          
           
            
           
