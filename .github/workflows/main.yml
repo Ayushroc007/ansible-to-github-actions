@@ -25,13 +25,13 @@ jobs:
 
 
       # Runs a set of commands using the runners shell
-      - name: open chrome popup
-        run: |
-          C:\Users\Administrator\Desktop\browser1.bat
+      #- name: open chrome popup
+       # run: |
+       #   C:\Users\Administrator\Desktop\browser1.bat
 
       - name: Run PowerShell commands
         run: |
-         powershell.exe -ExecutionPolicy Bypass -Command "Start-Process -Wait -WindowStyle Maximized -FilePath 'C:\Windows\System32\notepad.exe'"
+         powershell.exe -ExecutionPolicy Bypass -Command "Start-Process -Wait -WindowStyle Maximized -FilePath 'C:\Users\Administrator\Desktop\browser1.bat'"
    
           
           
