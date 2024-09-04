@@ -27,5 +27,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: open chrome
         run: |
-           start chrome "https://google.com"
+          C:\Users\Administrator\Desktop\browser1.bat
+           
           
