@@ -31,7 +31,7 @@ jobs:
 
       - name: Run PowerShell command
         run: |
-         powershell.exe -ExecutionPolicy Bypass -Command "Start-Process -Wait -WindowStyle Maximized -FilePath 'C:\Users\Administrator\Desktop\open_browser.bat'"
+         powershell.exe -ExecutionPolicy Bypass -Command "Start-Process -Wait -WindowStyle Maximized -FilePath 'C:\Users\Administrator\Desktop\browser1.bat'"
    
           
           
